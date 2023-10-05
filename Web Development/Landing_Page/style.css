@@ -7,8 +7,8 @@
 }
 
 body {
-  min-height: 100vh;
-  position: relative;
+    min-height: 100vh;
+    position: relative;
     /*background: linear-gradient(180deg, #090808, #1c1c1c);*/
     background: url('https://i.ibb.co/fvDfF8t/background.png');
     background-size: cover;
@@ -17,13 +17,21 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-span, i, li, button, a{
+span,
+i,
+li,
+button,
+a {
     text-decoration: none;
     outline: none;
 }
 
-a, button, input, textarea, select{
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+a,
+button,
+input,
+textarea,
+select {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .container {
@@ -67,15 +75,16 @@ a, button, input, textarea, select{
 }
 
 /* Estilos del navbar*/
-.nav{
+.nav {
     width: 100%;
     height: 80px;
     position: absolute;
-    top: 0; left: 0;
+    top: 0;
+    left: 0;
     z-index: 100;
 }
 
-.nav-container-content{
+.nav-container-content {
     width: 90%;
     max-width: 1100px;
     height: 100%;
@@ -124,7 +133,7 @@ a, button, input, textarea, select{
 
 .navbar a:last-child {
     padding: 9px 17px;
-    background: rgba(255,255,255,.15);
+    background: rgba(255, 255, 255, .15);
     backdrop-filter: blur(2px);
     -webkit-border-radius: 50px;
     border-radius: 50px;
@@ -133,32 +142,32 @@ a, button, input, textarea, select{
     margin-left: 8px;
 }
 
-.navbar a:last-child:hover{
-	color: #f4f4f4;
+.navbar a:last-child:hover {
+    color: #f4f4f4;
     opacity: 0.9;
-    -webkit-box-shadow: 0px 6px 10px rgba(0,0,0,.12);
-    box-shadow: 0px 6px 10px rgba(0,0,0,.12);
+    -webkit-box-shadow: 0px 6px 10px rgba(0, 0, 0, .12);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, .12);
 }
 
-@media screen and (max-width: 480px){
-    .nav-container-content{
+@media screen and (max-width: 480px) {
+    .nav-container-content {
         -webkit-justify-content: space-around;
         -ms-flex-pack: distribute;
         justify-content: space-around;
     }
 
-    .navbar a{
+    .navbar a {
         font-size: 12px;
         margin-left: 0;
     }
 
-    .navbar a:last-child{
+    .navbar a:last-child {
         margin-left: 0;
     }
 }
 
 /* Estilos del navbar*/
-.section-container-items{
+.section-container-items {
     width: 100%;
     height: auto;
     -webkit-transform: translateY(30px);
@@ -166,23 +175,23 @@ a, button, input, textarea, select{
     transform: translateY(30px);
 }
 
-@media screen and (max-width: 480px){
-    .section-container-items{
+@media screen and (max-width: 480px) {
+    .section-container-items {
         -webkit-transform: translateY(23px);
         -ms-transform: translateY(23px);
         transform: translateY(23px);
     }
 }
 
-@media screen and (max-width: 320px){
-    .section-container-items{
+@media screen and (max-width: 320px) {
+    .section-container-items {
         -webkit-transform: translateY(30px);
         -ms-transform: translateY(30px);
         transform: translateY(30px);
     }
 }
 
-.section-items-col-12{
+.section-items-col-12 {
     width: 90%;
     height: 100%;
     max-width: 980px;
@@ -219,11 +228,11 @@ a, button, input, textarea, select{
     transform: translateY(6px);
 }
 
-.section a{
+.section a {
     display: inline-block;
 }
 
-.section h1{
+.section h1 {
     font-size: 60px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -231,23 +240,25 @@ a, button, input, textarea, select{
     color: #f4f4f4;
     letter-spacing: 0.12px;
     line-height: 74px;
-    margin: 0; padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
-.section h3{
+.section h3 {
     font-size: 20px;
     font-family: 'DM Sans', Sans-Serif;
     font-weight: 400;
     text-transform: capitalize;
     letter-spacing: 0.30px;
-    margin: 0; padding: 0;
+    margin: 0;
+    padding: 0;
     margin-top: 5px;
     margin-left: 2px;
     color: #fff;
     opacity: 0.7;
 }
 
-.section button{
+.section button {
     margin-top: 40px;
     display: block;
     padding: 15px 24px;
@@ -259,7 +270,7 @@ a, button, input, textarea, select{
     line-height: 17px;
     -webkit-border-radius: 50px;
     border-radius: 50px;
-    background: rgba(255,255,255,.15);
+    background: rgba(255, 255, 255, .15);
     backdrop-filter: blur(2px);
     border: none;
     cursor: pointer;
@@ -269,32 +280,32 @@ a, button, input, textarea, select{
     transition: all 250ms ease-in-out;
 }
 
-.section button:hover{
+.section button:hover {
     opacity: 0.9;
-    -webkit-box-shadow: 0px 6px 10px rgba(0,0,0,.12);
-    box-shadow: 0px 6px 10px rgba(0,0,0,.12);
+    -webkit-box-shadow: 0px 6px 10px rgba(0, 0, 0, .12);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, .12);
 }
 
-.section button i{
+.section button i {
     font-size: 14px;
     margin-right: 8px;
 }
 
-.section button span{
+.section button span {
     font-size: 11px;
     font-weight: 700;
     letter-spacing: 0.20px;
     margin-left: 3px;
 }
 
-@media screen and (max-width: 1124px){
-    .section{
+@media screen and (max-width: 1124px) {
+    .section {
         max-width: 50%;
     }
 }
 
-@media screen and (max-width: 480px){
-    .section{
+@media screen and (max-width: 480px) {
+    .section {
         width: 320px;
         max-width: 100%;
         -webkit-transform: translateY(-30px);
@@ -303,40 +314,40 @@ a, button, input, textarea, select{
         text-align: center;
     }
 
-    .section h1{
+    .section h1 {
         font-size: 47px;
         line-height: 59px;
     }
 
-    .section h3{
+    .section h3 {
         font-size: 22px;
         letter-spacing: -0.08px;
         line-height: 27px;
         margin-top: 3px;
     }
 
-    .section button{
+    .section button {
         padding: 15px 18px;
         margin-top: 20px;
     }
 }
 
-@media screen and (max-width: 320px){
-    .section{
+@media screen and (max-width: 320px) {
+    .section {
         width: 260px;
     }
 
-    .section h1{
+    .section h1 {
         font-size: 38px;
         line-height: 48px;
     }
 
-    .section h3{
+    .section h3 {
         font-size: 18px;
         line-height: 24px;
     }
 
-    .section button{
+    .section button {
         font-size: 14px;
     }
 }
@@ -359,39 +370,43 @@ a, button, input, textarea, select{
 
 /* Estilos del la imagen*/
 .alta {
-   width: 100%;
-   max-width: 490px;
-   height: auto;
-   overflow: hidden;
+    width: 100%;
+    max-width: 490px;
+    height: auto;
+    overflow: hidden;
 
-   position: relative;
-   display: -webkit-box;
-   display: -webkit-flex;
-   display: -ms-flexbox;
-   display: flex;
-   -webkit-box-pack: center;
-   -webkit-justify-content: center;
-   -ms-flex-pack: center;
-   justify-content: center;
-   -webkit-box-align: center;
-   -webkit-align-items: center;
-   -ms-flex-align: center;
-   align-items: center;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
-.alta-title{
+.alta-title {
     font-size: 22px;
     font-family: 'Dm Sans', Sans-Serif;
     font-weight: 600;
     letter-spacing: 6px;
     text-transform: uppercase;
-    margin: 0; padding: 0;
+    margin: 0;
+    padding: 0;
     color: #fff;
     opacity: 1;
     z-index: 1;
 
     position: absolute;
-    right: 0; -webkit-transform: rotate(90deg) translateY(-60px); -ms-transform: rotate(90deg) translateY(-60px); transform: rotate(90deg) translateY(-60px);
+    right: 0;
+    -webkit-transform: rotate(90deg) translateY(-60px);
+    -ms-transform: rotate(90deg) translateY(-60px);
+    transform: rotate(90deg) translateY(-60px);
 }
 
 .alta img {
@@ -402,24 +417,27 @@ a, button, input, textarea, select{
     transform: translateY(10px);
 }
 
-@media screen and (max-width: 1124px){
-    .alta{
+@media screen and (max-width: 1124px) {
+    .alta {
         max-width: 50%;
     }
 }
 
-@media screen and (max-width: 480px){
-    .alta{
+@media screen and (max-width: 480px) {
+    .alta {
         max-width: 100%;
     }
 
-    .alta-title{
+    .alta-title {
         font-size: 16px;
         position: absolute;
-        right: 0; -webkit-transform: rotate(90deg) translateY(-66px); -ms-transform: rotate(90deg) translateY(-66px); transform: rotate(90deg) translateY(-66px);
+        right: 0;
+        -webkit-transform: rotate(90deg) translateY(-66px);
+        -ms-transform: rotate(90deg) translateY(-66px);
+        transform: rotate(90deg) translateY(-66px);
     }
 
-    .alta img{
+    .alta img {
         width: 410px;
         -webkit-transform: translateX(-15px);
         -ms-transform: translateX(-15px);
@@ -427,26 +445,30 @@ a, button, input, textarea, select{
     }
 }
 
-@media screen and (max-width: 320px){
-    .alta-title{
+@media screen and (max-width: 320px) {
+    .alta-title {
         font-size: 14px;
         position: absolute;
-        right: 0; -webkit-transform: rotate(90deg) translateY(-48px); -ms-transform: rotate(90deg) translateY(-48px); transform: rotate(90deg) translateY(-48px);
+        right: 0;
+        -webkit-transform: rotate(90deg) translateY(-48px);
+        -ms-transform: rotate(90deg) translateY(-48px);
+        transform: rotate(90deg) translateY(-48px);
     }
 
-    .alta img{
+    .alta img {
         width: 320px;
     }
 }
 
-footer{
+footer {
     width: 100%;
     height: auto;
     position: absolute;
-    bottom: 0; left: 0;
+    bottom: 0;
+    left: 0;
 }
 
-.footer-col-12{
+.footer-col-12 {
     width: 85%;
     max-width: 1100px;
     margin: auto;
@@ -456,7 +478,7 @@ footer{
     text-align: right;
 }
 
-.footer-col-12 p{
+.footer-col-12 p {
     font-family: 'Roboto', Sans-Serif;
     font-size: 14px;
     font-weight: 400;
@@ -466,13 +488,13 @@ footer{
     letter-spacing: 0.12px;
 }
 
-.footer-col-12 p a{
+.footer-col-12 p a {
     color: #fff;
     text-decoration: underline;
 }
 
-@media screen and (max-width: 480px){
-    .footer-col-12 p{
+@media screen and (max-width: 480px) {
+    .footer-col-12 p {
         text-align: center;
         font-size: 12px;
         line-height: 16px;
@@ -480,35 +502,35 @@ footer{
     }
 }
 
-::-moz-selection{
+::-moz-selection {
     background: yellow;
     color: #000;
 }
 
-::selection{
+::selection {
     background: yellow;
     color: #000;
 }
 
-@media screen and (max-width: 980px){
-    .section{
+@media screen and (max-width: 980px) {
+    .section {
         max-width: 500px;
         text-align: center;
     }
 
-    .alta{
+    .alta {
         max-width: 500px;
     }
 }
 
-@media screen and (max-width: 320px){
-    #and_menor .nav-container-content{
+@media screen and (max-width: 320px) {
+    #and_menor .nav-container-content {
         -webkit-justify-content: space-around;
         -ms-flex-pack: distribute;
         justify-content: space-around;
     }
 
-    #and_menor .nav-container-content .navbar a{
+    #and_menor .nav-container-content .navbar a {
         font-size: 11px;
         padding: 8px 10px;
     }
